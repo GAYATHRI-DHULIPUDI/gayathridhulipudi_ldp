@@ -1,0 +1,103 @@
+{
+  "data": [
+    {
+      "name": "DGayathri",
+      "phone": "8688475618",
+      "email": "d.gayathri",
+      "gender": "female",
+      "skills": [
+        "html",
+        "css"
+      ],
+      "password": "12345678",
+      "confirmpassword": "12345678",
+      "id": 1
+    },
+    {
+      "name": "hello",
+      "phone": "098765443",
+      "email": "mymail",
+      "gender": "female",
+      "skills": [
+        "html"
+      ],
+      "password": "12345",
+      "confirmpassword": "12345",
+      "id": 2
+    },
+    {
+      "name": "hvjhv",
+      "phone": "hhbb",
+      "email": "nbjkbkj",
+      "gender": "male",
+      "skills": [
+        "css"
+      ],
+      "password": "56789",
+      "confirmpassword": "56789",
+      "id": 3
+    },
+    {
+      "name": "fbdbf",
+      "phone": "dgdfs",
+      "email": "rhrfh",
+      "gender": "male",
+      "skills": [
+        "javascript"
+      ],
+      "password": "1234",
+      "confirmpassword": "1234",
+      "id": 4
+    },
+    {
+      "name": "hai",
+      "phone": "hello",
+      "email": "yes",
+      "gender": "female",
+      "skills": [
+        "html"
+      ],
+      "password": "123456",
+      "confirmpassword": "123456",
+      "id": 5
+    },
+    {
+      "name": "dfd",
+      "phone": "sfaasqwqr",
+      "email": "eryrytut",
+      "gender": "female",
+      "skills": [
+        "css"
+      ],
+      "password": "1234",
+      "confirmpassword": "1234",
+      "id": 6
+    },
+    {
+      "name": "ghhhjjj",
+      "phone": "hbbmnmnmm,",
+      "email": "bnjnjjkkjkllk",
+      "gender": "female",
+      "skills": [
+        "html",
+        "css"
+      ],
+      "password": "123456",
+      "confirmpassword": "123456",
+      "id": 7
+    },
+    {
+      "name": "D.Gayathri",
+      "phone": "8688475618",
+      "email": "gayathri.dhulipudi@zemosolabs.com",
+      "gender": "female",
+      "skills": [
+        "html",
+        "css"
+      ],
+      "password": "123456",
+      "confirmpassword": "123456",
+      "id": 8
+    }
+  ]
+}
