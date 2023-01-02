@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Nested Functions</title>
+    </head>
+    <body>
+        <script>
+            /*Write a program to demonstrate how a function can be
+             passed as a parameter to another function.*/
+            function add(a,b){
+                return a+b;
+            }
+            function substraction(a,b,fun){
+                let sum=(a+b)*2;
+                console.log(sum-fun(a,b));
+            }
+            substraction(5,2,add);
+        </script>
+    </body>
+</html>
