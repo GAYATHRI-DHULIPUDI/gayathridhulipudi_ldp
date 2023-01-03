@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JS ASSIGNMENT 2</title>
+    </head>
+    <body>
+        <script>
+            /**
+            *
+            * Assume we are fetching the data from a rest endpoint in the get data function.
+            * we can simulate the same by replacing the setTimeout with fetch api and executing the same in a browser.
+            *
+            */
+            function getData(uId) {
+                let p=new Promise(function(Resolve,error)
+                {
+                    setTimeout(() => {
+                    console.log("Fetched the data!");
+                    return Resolve("skc@gmail.com");
+                    }, 4000);
+                })
+                return p;
+            }
+            async function f(){
+            console.log("start");
+            var email = await getData("skc");
+            console.log("Email id of the user id is: " + email);
+            console.log("end");
+            }
+            f()
+
+            
+        </script>
+    </body>
+</html>
