@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ES6 Assignment</title>
+    </head>
+    <body>
+        <script>
+            const printName=(name)=> "Hi"+name;
+            console.log(printName("Gayathri"));
+            /*--------------------*/
+            const printBill=(name,bill)=> `hi ${name} please pay : ${bill}`
+            console.log(printBill("Gayathri",400))
+            /*--------------------*/
+            let person = {
+            firstName: 'John',
+            age:92
+            };
+            let { firstName, age } = person;
+            console.log(firstName); 
+            console.log(age);
+        </script>
+    </body>
+</html>
