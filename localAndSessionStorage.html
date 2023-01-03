@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Assignment 3 Js</title>
+    </head>
+    <style>
+        body{
+            align-items: center;
+        }
+    </style>
+    <body>
+        <button id="btn" onclick="fun()" >Click Me</button>
+        <script>
+            //localStorage.setItem("value",0);
+            //sessionStorage.setItem("value",0)
+            function fun(){
+                let l=parseInt(localStorage.getItem("value"));
+                l+=1;
+                localStorage.setItem("value",l);
+                let s=parseInt(sessionStorage.getItem("value"));
+                if(isNaN(s))
+                {
+                    s=1;
+                }
+                else{
+                    s+=1
+                }
+                sessionStorage.setItem("value",s);
+            }
+        </script>
+    </body>
+</html>
