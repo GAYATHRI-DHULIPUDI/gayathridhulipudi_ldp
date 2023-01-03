@@ -5,17 +5,25 @@
     </head>
     <style>
         body{
-            align-items: center;
+            text-align: center;
         }
     </style>
     <body>
-        <button id="btn" onclick="fun()" >Click Me</button>
+        <button id="btn" onclick="fun()" >Click Me</button><br><br>
+        <div id="localscore"></div><br>
+        <div id="sessionscore"></div>
         <script>
             //localStorage.setItem("value",0);
             //sessionStorage.setItem("value",0)
             function fun(){
                 let l=parseInt(localStorage.getItem("value"));
-                l+=1;
+                if(isNaN(l))
+                {
+                    l=1;
+                }
+                else{
+                    l+=1
+                }
                 localStorage.setItem("value",l);
                 let s=parseInt(sessionStorage.getItem("value"));
                 if(isNaN(s))
@@ -25,6 +33,10 @@
                 else{
                     s+=1
                 }
+                var local=document.getElementById("localscore");
+                local.innerText="Local Score "+""+l;
+                var session=document.getElementById("sessionscore");
+                session.innerText="Session Score "+""+s;
                 sessionStorage.setItem("value",s);
             }
         </script>
