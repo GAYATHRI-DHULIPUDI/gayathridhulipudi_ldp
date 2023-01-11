@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Restaurant</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div id="main">
+            <div id="tables">
+                <h1 id="h">Tables</h1>
+                <div class="content">
+                    <form>
+                        <input id="searchtable" placeholder="Search Table">
+                    </form>
+                    <ul id="tablelist">
+                        <li id="table1" class="tab" ondrop="DragEnter(event)" ondragover="DragOver(event)" onclick="funon(event)">
+                            <p class="tablesearch">Table-1</p>Items:<span id="it">0</span>|Cost:Rs.<span id="co">0</span>
+                        </li>
+                        <li id="table2" class="tab" ondrop="DragEnter(event)" ondragover="DragOver(event)" onclick="funon(event)">
+                            <p class="tablesearch">Table-2</p>Items:<span id="it">0</span>|Cost:Rs.<span id="co">0</span>
+                        </li>
+                        <li id="table3" class="tab" ondrop="DragEnter(event)" ondragover="DragOver(event)" onclick="funon(event)">
+                            <p class="tablesearch">Table-3</p>Items:<span id="it">0</span>|Cost:Rs.<span id="co">0</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="menus">
+                <h1 id="m">Menu</h1>
+                <div class="content" >
+                    <form>
+                        <input id="searchitem" placeholder="Search Item By course By Type">
+                    </form>
+                    <ul id="menulist">
+                        <li id="item1" class="item snacks" draggable="true" ondragstart="dragstarted(event)">
+                            <p class="g">French Fries</p>105.00<p>Category : Snacks</p>
+                        </li>
+                        <li id="item2" class="item snacks" draggable="true" ondragstart="dragstarted(event)">
+                            <p class="g">Crusty Garlic Focaccia With Melted Cheese</p>105.00<p>Category : Snacks</p>
+                        </li>
+                        <li id="item3" class="item snacks" draggable="true" ondragstart="dragstarted(event)">
+                            <p class="g">Home Country Fries with Herbs & Chilli Flakes</p>105.00<p>Category : Snacks</p>
+                        </li>
+                        <li id="item4" class="item snacks" draggable="true" ondragstart="dragstarted(event)">
+                            <p class="g">French Fries with Cheese & Jalapenos</p>135.00<p>Category : Snacks</p>
+                        </li>
+                        <li id="item5" class="item breakfast" draggable="true" ondragstart="dragstarted(event)">
+                            <p class="g">Plain Dosa</p>50.00<p>Catergory : Breakfast</p>
+                        </li>
+                        <li id="item6" class="item breakfast" draggable="true" ondragstart="dragstarted(event)">
+                            <p>Masala Dosa</p>100.00</p><p>Catergory : Breakfast</p>
+                        </li>
+                        <li id="item7" class="item breakfast" draggable="true" ondragstart="dragstarted(event)">
+                            <p>Aloo Paratha</p>80.00<p>Catergory : Breakfast</p>
+                        </li>
+                        <li id="item8" class="item rice" draggable="true" ondragstart="dragstarted(event)">
+                            <p>Full Meals</p>200.00<p>Category : Rice</p>
+                        </li>
+                        <li id="item9" class="item rice" draggable="true" ondragstart="dragstarted(event)" >
+                            <p>Chicken Biryani</p>350.00<p>Category : Rice</p>
+                        </li>
+                        <li id="item10" class="item rice" draggable="true" ondragstart="dragstarted(event)">
+                            <p>Veg Biryani</p>250.00<p>Category : Rice</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="popup">
+            <div id="headerr">
+                <p><span id="gayathri">Table-1</span> | Order Details</p>
+                <p onclick="off()" id="x">X</p>
+            </div>
+        </div>
+        <script src="restaurant.js"></script>
+    </body>
+</html>
