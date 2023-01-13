@@ -30,13 +30,13 @@ body{
     width:75%;
     height:40px;
     border:none;
-    box-shadow:0px 2.5px 1px rgb(211, 208, 208);
+    box-shadow:0 0 10px rgb(54, 50, 50);
 }
 #searchitem{
     width:75%;
     height:40px;
     border:none;
-    box-shadow:0px 2.5px 1px rgb(211, 208, 208);
+    box-shadow:0 0 10px rgb(54, 50, 50);
 }
 h1{
     text-align: center;
@@ -54,7 +54,7 @@ h1{
     box-sizing: border-box;
     width:85%;
     height:90px;
-    box-shadow:0 0 10px rgb(244, 241, 241);
+    box-shadow:0 0 10px rgb(54, 50, 50);
     margin-top:20px;
     line-height:10px;
     border-style: solid;
@@ -63,7 +63,7 @@ h1{
 #popup{
     width:500px;
     display:none;
-    background-color: rgb(222, 219, 215);
+    background-color: antiquewhite;
     text-align: center;
     z-index: 2;
     position:absolute;
@@ -71,7 +71,7 @@ h1{
     left:30%
 }
 #headerr{
-    background-color:rgb(101, 93, 90);
+    background-color: aqua;
     display:flex;
     font-weight: 10px;
     height: 40px;
@@ -89,7 +89,6 @@ h1{
     }
     .tab{
         font-size: 15px;
-        box-shadow:0 0 10px rgb(54, 50, 50);
         width:100%;
     }
     #tablelist{
@@ -97,7 +96,6 @@ h1{
     }
     .item{
         font-size: 15px;
-        box-shadow:0 0 10px rgb(244, 241, 241);
         height: 130px;
     }
     .g{
@@ -106,7 +104,6 @@ h1{
     #popup{
         width:400px;
         display:none;
-        background-color: rgb(222, 219, 215);
         text-align: center;
         z-index: 2;
         position:absolute;
@@ -114,7 +111,6 @@ h1{
         left:30%
     }
     #headerr{
-        background-color:rgb(101, 93, 90);
         display:flex;
         height: 40px;
         flex-direction:row;
@@ -137,7 +133,6 @@ h1{
     }
     .tab{
         font-size: 15px;
-        box-shadow:0 0 10px rgb(54, 50, 50);
         width:100%;
     }
     #tablelist{
@@ -145,7 +140,6 @@ h1{
     }
     .item{
         font-size: 15px;
-        box-shadow:0 0 10px rgb(244, 241, 241);
         height: 130px;
     }
     .g{
@@ -154,7 +148,6 @@ h1{
     #popup{
         width:400px;
         display:none;
-        background-color: rgb(222, 219, 215);
         text-align: center;
         z-index: 2;
         position:absolute;
@@ -162,7 +155,6 @@ h1{
         left:10%
     }
     #headerr{
-        background-color:rgb(101, 93, 90);
         display:flex;
         height: 40px;
         flex-direction:row;
