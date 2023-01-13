@@ -3,8 +3,8 @@ let list=document.getElementsByClassName("item");
             function filter(){
                 var v=document.getElementById("searchitem").value;
                 v=v.toLowerCase();
-                if(v=="snacks" || v=="rice" || v=="breakfast"){
-                    let lists=(v=="snacks")?document.getElementsByClassName("snacks"):(v=="rice")?document.getElementsByClassName("rice"):document.getElementsByClassName("breakfast")
+                if("snacks".includes(v) || "rice".includes(v) || "breakfast".includes(v)){
+                    let lists=("snacks".includes(v))?document.getElementsByClassName("snacks"):("rice".includes(v))?document.getElementsByClassName("rice"):document.getElementsByClassName("breakfast")
                     let attributeOfP=new Array();
                     for(var i of lists){
                         attributeOfP.push(i.getAttribute('id'))
