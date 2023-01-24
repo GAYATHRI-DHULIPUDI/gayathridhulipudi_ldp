@@ -5,4 +5,4 @@ export default{
     component:MuiGrid
 } as ComponentMeta<typeof MuiGrid>;
 const Template: ComponentStory<typeof MuiGrid>= () => <MuiGrid/>
-export const Primary = Template.bind({});
+export const Primary = Template.bind({})
